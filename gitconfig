@@ -1,0 +1,18 @@
+[user]
+      name = Michael Baumgarten
+      email mbaum0@github.com
+[pull]
+      rebase = false
+  
+[push]
+      default = current
+  
+[core]
+      editor = vim
+  
+[alias]
+      co = 'checkout'
+      br = 'branch'
+      ci = 'commit'
+      st = 'status'
+      graph = 'log --oneline --graph --decorate --all'
