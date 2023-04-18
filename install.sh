@@ -15,5 +15,6 @@ fi
 
 ln -s ${DOTFILES_DIR}/gitconfig ~/.gitconfig
 cat ${DOTFILES_DIR}/dot_bashrc >> ~/.bashrc
+cat ${DOTFILES_DIR}/dot_vimrc >> ~/.vimrc
 
 echo "done!"
