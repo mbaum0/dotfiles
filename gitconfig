@@ -1,6 +1,6 @@
 [user]
       name = Michael Baumgarten
-      email mbaum0@github.com
+      email = mbaum0@github.com
 [pull]
       rebase = false
   
