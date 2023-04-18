@@ -14,6 +14,6 @@ if [ $CODESPACES ]; then
 fi
 
 ln -s ${DOTFILES_DIR}/gitconfig ~/.gitconfig
+cat ${DOTFILES_DIR}/dot_bashrc >> ~/.bashrc
 
-alias squash='git rebase -i HEAD~"$1"'
 echo "done!"
